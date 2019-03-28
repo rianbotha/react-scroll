@@ -104,7 +104,7 @@ const animateScroll = (easing, options, timestamp) => {
 
   data.currentPositionY = data.startPositionY + Math.ceil(data.deltaTop * data.percent);
 
-  if (data.containerElement && data.containerElement !== document && data.containerElement !== document.body) {
+  if (data.containerElement && data.containerElement !== document) {
     data.containerElement.scrollTop = data.currentPositionY;
   } else {
     window.scrollTo(0, data.currentPositionY);

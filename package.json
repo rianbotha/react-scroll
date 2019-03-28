@@ -1,7 +1,7 @@
 {
   "name": "@rianbotha/react-scroll",
-  "version": "1.7.11",
-  "description": "A scroll component for React.js froked from react-scroll",
+  "version": "1.7.13",
+  "description": "A scroll component for React.js forked from react-scroll",
   "main": "modules",
   "repository": {
     "type": "git",
@@ -47,7 +47,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "expect": "^1.20.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "karma": "^1.6.0",
     "karma-chrome-launcher": "^2.0.0",

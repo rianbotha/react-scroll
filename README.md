@@ -17,7 +17,7 @@ $ npm start
 ### Examples
 Checkout examples
 
-Live example 
+Live example
 > [Basic](https://codesandbox.io/s/py5opl2280)
 
 > [Basic-Keydown](https://codesandbox.io/s/l94kv62o4m)
@@ -162,7 +162,7 @@ React.render(
 
 > to - target to scroll to
 
-> containerId - container to listen for scroll events and to perform scrolling in 
+> containerId - container to listen for scroll events and to perform scrolling in
 
 > spy - make Link selected when scroll is at its targets position
 
@@ -390,6 +390,11 @@ easeInOutQuint
 ```
 
 A good visual reference can be found at [easings.net](http://easings.net/)
+
+#### Publishing to NPM
+1. run `npm run build`
+2. navigate to `./build/npm`
+3. run `npm publish`
 
 #### Changelog
 - [See the CHANGELOG](./CHANGELOG.md)
