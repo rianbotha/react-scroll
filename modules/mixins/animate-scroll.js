@@ -49,7 +49,7 @@ const makeData = () => ({
 
 const currentPositionY = (options) => {
   const containerElement = options.data.containerElement;
-  if (containerElement && containerElement !== document && containerElement !== document.body) {
+  if (containerElement && containerElement !== document) {
     return containerElement.scrollTop;
   } else {
     var supportPageOffset = window.pageXOffset !== undefined;
@@ -61,7 +61,7 @@ const currentPositionY = (options) => {
 
 const scrollContainerHeight = (options) => {
   const containerElement = options.data.containerElement;
-  if (containerElement && containerElement !== document && containerElement !== document.body) {
+  if (containerElement && containerElement !== document) {
     return Math.max(
       containerElement.scrollHeight,
       containerElement.offsetHeight,

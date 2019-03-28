@@ -1,11 +1,11 @@
 {
-  "name": "react-scroll",
+  "name": "@rianbotha/react-scroll",
   "version": "1.7.11",
-  "description": "A scroll component for React.js",
+  "description": "A scroll component for React.js froked from react-scroll",
   "main": "modules",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fisshy/react-scroll.git"
+    "url": "git+https://github.com/rianbotha/react-scroll"
   },
   "scripts": {
     "examples": "webpack-dev-server --config examples/webpack.config.js --no-info --content-base examples",
@@ -14,12 +14,13 @@
     "test": "karma start",
     "start": "npm run examples"
   },
-  "homepage": "https://github.com/fisshy/react-scroll",
+  "homepage": "https://github.com/rianbotha/react-scroll",
   "bugs": {
-    "url": "https://github.com/fisshy/react-scroll/issues"
+    "url": "https://github.com/rianbotha/react-scroll/issues"
   },
   "authors": [
-    "Joachim Karlsson"
+    "Joachim Karlsson",
+    "Rian Botha"
   ],
   "license": "MIT",
   "tags": [
